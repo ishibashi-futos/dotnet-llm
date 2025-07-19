@@ -1,0 +1,6 @@
+Download models from Hugging-face
+https://onnxruntime.ai/docs/genai/tutorials/phi3-python.html#run-on-cpu
+
+```bash
+huggingface-cli download microsoft/Phi-3-mini-4k-instruct-onnx --include cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/* --local-dir ./models/
+```

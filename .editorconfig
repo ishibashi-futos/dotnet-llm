@@ -1,0 +1,8 @@
+# この設定をルートとし、これ以上親の.editorconfigを探さない
+root = true
+
+# C#ファイル (*.cs) にルールを適用
+[*.cs]
+
+# すべての波括弧 { の前で改行しない
+csharp_new_line_before_open_brace = none
