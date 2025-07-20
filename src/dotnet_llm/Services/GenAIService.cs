@@ -9,7 +9,7 @@ namespace dotnet_llm.Services {
     public class GenAIService {
 
         private readonly TokenizerService tokenizerService;
-        private Generator generator;
+        private readonly Generator generator;
         private readonly PromptManager promptManager;
 
 
